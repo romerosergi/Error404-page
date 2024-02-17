@@ -43,3 +43,16 @@
     cursor: pointer;
     scale: 1;
 }
+
+@media screen and (max-width:480px) {
+    .section-404 {
+        justify-content: center;
+        align-items: center;
+    }
+    .text-404 {
+        display: none;
+    }
+    .illustration-404 {
+        width: 400px;
+    }
+}
