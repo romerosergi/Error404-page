@@ -6,6 +6,14 @@
     box-sizing: border-box;
     font-family: "Anta", sans-serif;
 }
+footer {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 1vw;
+}
 .section-404 {
     position: absolute;
     width: 100%;
@@ -19,14 +27,13 @@
     width: 35%;
 }
 .title-404 {
+    color: rgb(35, 35, 37);
     font-size: 4rem;
-    text-shadow: 0 0 4px rgba(0, 0, 0, 0.581);
 }
 .description-404 {
     width: 80%;
     text-align: justify;
-    color: rgba(0, 0, 0, 0.546);
-    text-shadow: 0 0 4px rgba(0, 0, 0, 0.285);
+    color: rgba(0, 0, 0, 0.827);
     margin-top: 1vw;
     margin-bottom: 3vw;
 }
@@ -34,6 +41,7 @@
     position: relative;
     padding: 1vw 2vw;
     left: 25%;
+    border-radius: 4px;
     background-color: rgb(43, 43, 43);
     color: white;
     border: transparent;
